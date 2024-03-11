@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+     /* box-sizing: border-box; */
+}
+
+body {
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.calc {
+    height: 33em;
+    width: 340px;
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(92, 92, 95, 0.507) 0px 7px 29px 0px;
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0px 10px 0px;
+    /* padding: 10px; */
+    /* border-bottom: 1px solid white; */
+    box-shadow: rgba(243, 235, 235, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.header {
+    font-size: 13px;
+    color: white;
+    font-family: cursive;
+}
+
+.tor {
+    display: flex;
+}
+
+.imggg {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.header p {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.navi {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 0px 10px 0px 10px;
+
+}
+
+.minus,
+.max,
+.xmarkk {
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    color: white;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+
+
+.minus:hover {
+    background-color: rgba(97, 96, 96, 0.639);
+}
+
+.max:hover {
+    background-color: rgba(97, 96, 96, 0.639);
+}
+
+.xmarkk:hover {
+    background-color: red;
+}
+
+.one {
+    height: 30px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    color: white;
+}
+
+/* #fire{
+    color: red;
+} */
+
+.recent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars {
+    /* justify-content: space-around; */
+    display: flex;
+    padding: 5px 0 5px 0px;
+    font-size: 18px;
+    /* font-family:; */
+}
+
+.bars i {
+    padding: 0 15px 0 15px;
+}
+
+.left {
+    padding: 5px 20px 5px 0;
+}
+
+.two {
+    height: 90px;
+    width: 100%;
+    /* background-color: red; */
+    overflow-x: scroll;
+    color: white;
+}
+
+.two::-webkit-scrollbar {
+    display: none;
+}
+
+#out {
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+.mmm {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.mcc {
+    color: grey;
+}
+
+.mmm button {
+    padding: 1px 8px 1px 8px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.mmm button:hover {
+    background-color: rgba(97, 96, 96, 0.639);
+    cursor: pointer;
+}
+
+.number {
+    margin-top: 15px;
+    margin-left: 3px;
+    color: white;
+}
+
+.number button {
+    margin-bottom: 3px;
+    width: 80px;
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#style {
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgb(59, 59, 59);
+}
+
+#style:hover {
+    /* box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0, 0, 0, 0.2); */
+    background-color: rgb(41, 41, 41);
+}
+
+.number button:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+#styles {
+    background-color: rgb(237, 155, 48);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#styles:hover {
+    background-color: rgb(237, 141, 15);
+}

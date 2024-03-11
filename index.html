@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="2824440_calculator_math_school_tool_icon.png">
+    <script src="https://kit.fontawesome.com/6f0fae15cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calc">
+        <nav>
+            <div class="header">
+                <div class="imggg">
+                    <div class="tor">
+                        <img src="2824440_calculator_math_school_tool_icon.png" alt="">
+                        <p>Calculator</p>
+                    </div>
+                    <div class="navi">
+                        <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                        <button class="max"><i class="fa-regular fa-square"></i></button>
+                        <button class="xmarkk"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="one">
+            <div class="recent">
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Standard</p>
+                    <i id="fire" class="fa-solid fa-fire"></i>
+                </div>
+                <div class="left">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+            </div>
+        </section>
+        <section class="two">
+            <h1 id="out"></h1>
+            <!-- <input type="text" id="out"> -->
+        </section>
+        <div class="mmm">
+            <p class="mcc">MC</p>
+            <p class="mcc">MR</p>
+            <button>
+                <p>M+</p>
+            </button>
+            <button>
+                <p>M-</p>
+            </button>
+            <button>
+                <p>MS</p>
+            </button>
+            <p class="mcc">M</p>
+        </div>
+        <div class="number">
+            <button onclick="any(event)" value="%">%</button>
+            <button onclick="clsAll()" value="">CE</button>
+            <button onclick="any(event)" value="">C</button>
+            <button onclick="cls()" value=""><i class="fa-solid fa-circle-xmark"></i></button>
+            <button onclick="any(event)" value="1/x">1/x</button>
+            <button onclick="any(event)" value="^">^</button>
+            <button onclick="any(event)" value="2/x">2/x</button>
+            <button onclick="calculate(event)" value="÷">÷</button>
+            <button id="style" onclick="any(event)" value="7">7</button>
+            <button id="style" onclick="any(event)" value="8">8</button>
+            <button id="style" onclick="any(event)" value="9">9</button>
+            <button onclick="calculate(event)" value="*">*</button>
+            <button id="style" onclick="any(event)" value="4">4</button>
+            <button id="style" onclick="any(event)" value="5">5</button>
+            <button id="style" onclick="any(event)" value="6">6</button>
+            <button onclick="calculate(event)" value="-">-</button>
+            <button id="style" onclick="any(event)" value="1">1</button>
+            <button id="style" onclick="any(event)" value="2">2</button>
+            <button id="style" onclick="any(event)" value="3">3</button>
+            <button onclick="calculate(event)" value="+">+</button>
+            <button id="style" onclick="any(event)" value="+/-">+/-</button>
+            <button id="style" onclick="any(event)" value="0">0</button>
+            <button id="style" onclick="any(event)" value=".">.</button>
+            <button id="styles" onclick="equalTo(event)" value="=" class="cream">=</button>
+        </div>
+    </div>
+    <input onchange="changeColor(event)" type="color">
+</body>
+
+</html>
+<script src="calculator.js"></script>
