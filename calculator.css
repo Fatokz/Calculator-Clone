@@ -121,10 +121,9 @@ nav {
 }
 
 .two {
-    height: 90px;
+    height: 95px;
     width: 100%;
-    /* background-color: red; */
-    overflow-x: scroll;
+    overflow-x:  scroll;
     color: white;
 }
 
@@ -132,7 +131,15 @@ nav {
     display: none;
 }
 
+#output{
+    height: 20px;
+    width: 100%;
+    /* background-color: red; */
+    text-align: right;
+}
+
 #out {
+    /* height: 50px; */
     font-size: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: right;
